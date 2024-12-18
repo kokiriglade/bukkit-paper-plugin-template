@@ -7,16 +7,15 @@ plugins {
 tasks {
     jar {
         archiveClassifier = "unshaded"
+        dependsOn(check)
     }
 
     shadowJar {
         archiveClassifier.set(null as String?)
-        relocateDependency("net.kyori.adventure.serializer.configurate4")
         relocateDependency("xyz.jpenilla.gremlin")
     }
 
     writeDependencies {
-        relocateDependency("net.kyori.adventure.serializer.configurate4")
     }
 }
 

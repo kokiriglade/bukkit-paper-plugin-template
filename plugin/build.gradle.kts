@@ -26,6 +26,7 @@ tasks {
 
 bukkitPluginYaml {
     main = "${rootProject.group}.${rootProject.name}.TemplatePlugin"
+    name = rootProject.name
     authors.add("somebody")
     apiVersion = libs.versions.paper.get().split("-R0.1-SNAPSHOT")[0]
 }

@@ -5,8 +5,6 @@ shadow = "8.3.0"
 gremlin = "0.0.6"
 
 paper = "1.21.4-R0.1-SNAPSHOT"
-adventure = "4.17.0"
-configurate = "4.2.0-SNAPSHOT"
 
 [libraries]
 # build logic
@@ -21,5 +19,3 @@ stylecheck = { group = "ca.stellardrift", name = "stylecheck", version.ref = "st
 
 # libraries
 paper = { group = "io.papermc.paper", name = "paper-api", version.ref = "paper" }
-configurate-gson = { group = "org.spongepowered", name = "configurate-gson", version.ref = "configurate" }
-adventure-serializer-configurate = { group = "net.kyori", name = "adventure-serializer-configurate4", version.ref = "adventure" }

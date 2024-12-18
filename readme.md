@@ -2,12 +2,16 @@
 
 Template to easily create Bukkit plugins for [paper](https://github.com/PaperMC/Paper). It is pretty
 heavily inspired by [Carbon](https://github.com/Hexaoxide/Carbon)'s project layout.
+This template was made as a personal convenience; I don't have any interest in providing support for
+usage, but PR's are welcome. :)
 
-The template assumes you are licensing your plugin under the [GPL](license.txt). This template was
-made as a personal convenience; I don't have any interest in providing support for usage, but PR's
-are welcome. :)
+## Assumptions
 
-## Checkstyle
+This template makes a few assumptions based solely on my personal preference:
+- Licensed under the [GPL](license.txt).
+- Shades jpenilla's [gremlin](https://github.com/jpenilla/gremlin-gradle).
+
+### Checkstyle
 
 This template uses (a fork of) checkstyle to ensure code style is consistent across the entire project.  
 For checkstyle support in IDEA:
