@@ -9,7 +9,7 @@ usage, but PR's are welcome. :)
 
 This template makes a few assumptions based solely on my personal preference:
 - Licensed under the [GPL](license.txt).
-- Shades jpenilla's [gremlin](https://github.com/jpenilla/gremlin-gradle).
+- Shades jpenilla's [gremlin](https://github.com/jpenilla/gremlin).
 - Replaces the overworld on the test server with a custom generated checkerboard pattern (see [the datapack](plugin/run/world/datapacks/checkerboard))
 
 ### Checkstyle
