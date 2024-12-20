@@ -1,7 +1,6 @@
 plugins {
     id("platform-conventions")
     id("com.gradleup.shadow")
-    id("xyz.jpenilla.gremlin-gradle")
 }
 
 tasks {
@@ -11,11 +10,9 @@ tasks {
     }
 
     shadowJar {
+        dependsOn(check)
         archiveClassifier.set(null as String?)
-        relocateDependency("xyz.jpenilla.gremlin")
-    }
-
-    writeDependencies {
+        // relocations here
     }
 }
 

@@ -5,14 +5,7 @@ heavily inspired by [Carbon](https://github.com/Hexaoxide/Carbon)'s project layo
 This template was made as a personal convenience; I don't have any interest in providing support for
 usage, but PR's are welcome. :)
 
-## Assumptions
-
-This template makes a few assumptions based solely on my personal preference:
-- Licensed under the [GPL](license.txt).
-- Shades jpenilla's [gremlin](https://github.com/jpenilla/gremlin).
-- Replaces the overworld on the test server with a custom generated checkerboard pattern (see [the datapack](plugin/run/world/datapacks/checkerboard))
-
-### Checkstyle
+## Checkstyle
 
 This template uses (a fork of) checkstyle to ensure code style is consistent across the entire project.  
 For checkstyle support in IDEA:

@@ -30,3 +30,12 @@ bukkitPluginYaml {
     authors.add("somebody")
     apiVersion = libs.versions.paper.get().split("-R0.1-SNAPSHOT")[0]
 }
+
+// If writing a paper plugin:
+
+//paperPluginYaml {
+//    main = "${rootProject.group}.${rootProject.name}.TemplatePlugin"
+//    name = rootProject.name
+//    authors.add("somebody")
+//    apiVersion = libs.versions.paper.get().split("-R0.1-SNAPSHOT")[0]
+//}
