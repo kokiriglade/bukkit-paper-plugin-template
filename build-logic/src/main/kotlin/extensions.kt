@@ -11,5 +11,5 @@ val Project.libs: LibrariesForLibs
  * Relocate a package into the `com.example.template.libs` namespace.
  */
 fun ShadowJar.relocateDependency(pkg: String) {
-    relocate(pkg, "de.kokirigla.soulbinding.libs.$pkg")
+    relocate(pkg, "com.example.template.libs.$pkg")
 }
